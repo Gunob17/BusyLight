@@ -82,7 +82,7 @@
     </div>
 
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 10-09-2026</p>
+    <p class="updated">Last updated: 30-09-2026</p>
 
     <p>BusyLight ("the app") is developed by Gustav Nobel. This policy
     explains what data the app accesses, why, and — just as importantly —
@@ -92,7 +92,8 @@
     <p>BusyLight has no backend server. It runs entirely on your phone and
     talks only to (a) the BusyLight hardware accessory over Bluetooth, and
     (b) Microsoft's own servers, directly, only if you choose to connect
-    Microsoft Teams. The developer never receives, stores, or has access to
+    Microsoft Teams, and (c) your own Nextcloud server, only if you choose to
+    connect Nextcloud. The developer never receives, stores, or has access to
     any of your data.</p>
 
     <h2>What the app accesses, and why</h2>
@@ -121,6 +122,15 @@
       Microsoft's servers; BusyLight's developer never sees this data. You
       can disconnect at any time from Settings, which deletes the stored
       sign-in token from your device.</li>
+      <li><strong>Nextcloud (optional)</strong> — if you choose to connect
+      Nextcloud, you enter your Nextcloud server address, username and an
+      app password you create in Nextcloud. These are stored encrypted on
+      your device and sent only to the server you entered, to periodically
+      read your own user status (for example "In a meeting" or "Do not
+      disturb"). BusyLight's developer never sees this data. Signing out in
+      Settings deletes the stored credentials from your device, and you can
+      also revoke the app password at any time in your Nextcloud security
+      settings.</li>
     </ul>
 
     <h2>What the app does not do</h2>
@@ -129,16 +139,16 @@
       <li>It does not use analytics, crash-reporting, or tracking SDKs of
       any kind.</li>
       <li>It does not sell, rent, or share your data with any third party,
-      other than the direct Microsoft Teams connection you explicitly opt
-      into.</li>
+      other than the direct Microsoft Teams and Nextcloud connections you
+      explicitly opt into.</li>
       <li>It does not require an account to use the core features (calls,
       notifications, calendar, meeting-app detection).</li>
     </ul>
 
     <h2>Data retention and deletion</h2>
     <p>Because there is no server, there is no remotely stored data to
-    delete. Signing out of Teams removes the locally stored access token
-    immediately. Uninstalling the app removes all remaining local data,
+    delete. Signing out of Teams or Nextcloud removes the locally stored token or
+    app password immediately. Uninstalling the app removes all remaining local data,
     including your Settings preferences.</p>
 
     <h2>Children's privacy</h2>
